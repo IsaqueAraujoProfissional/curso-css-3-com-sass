@@ -1,0 +1,9 @@
+$raio: 8px;
+
+@mixin arrendodado {
+    border-radius: $raio;
+}
+
+@mixin circulo {
+    border-radius: 50%;
+}

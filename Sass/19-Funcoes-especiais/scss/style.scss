@@ -1,0 +1,19 @@
+$font: "../fonts/Open_Sans/static/";
+
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url($font + "OpenSans_Condensed-Bold.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url($font + "OpenSans_Condensed-Bold.ttf");
+    font-weight: 300;
+}
+
+body {
+    font-family: "OpenSans Regular";
+    font-size: 20px;
+    font-weight: 300;
+}

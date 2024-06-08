@@ -1,0 +1,11 @@
+$sizes: ("xs": 50px, "sm": 100px, "md": 200px);
+
+@use "sass:selector";
+
+@each $key, $value in $sizes {
+    .#{$key}{
+        width: $value;
+        height: $value;
+        border-radius: 50%;
+    }
+}
